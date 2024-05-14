@@ -4,7 +4,7 @@
 <H3>DATE:</H3>
 <H1 ALIGN =CENTER>Implementation of Text  Summarization</H1>
 <H3>Aim: to perform automatic text summarization using Natural Language Processing (NLP) techniques. </H3> 
- <BR>
+
 <h3>Algorithm:</h3>
 Step 1 Import necessary libraries for natural language processing tasks.<BR>
 Step 2: Download NLTK resources, including the punkt tokenizer and stopwords.<BR>
@@ -19,7 +19,6 @@ Step 5: Construct the main program to read the paragraph  and perform text summa
       
 ## Program:
 ```
-
 import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize,sent_tokenize
